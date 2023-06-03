@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(226,0,82,0.788953081232493) 100%);   
+    color: white;
+    height: 30px;
+    padding: 0 5px;
+}
+
+nav div h2 {
+    font-size: 15px;
+    color: rgb(255, 136, 0);
+    font-weight: 900;
+    text-shadow: 1px 1px  rgb(0, 0, 0);
+}
+
+.naveg ul{
+    display: flex;
+    gap: 10px;
+    font-size: 10px;
+}
+
+.naveg ul li:hover{
+    background-color: rgb(231, 157, 19);
+    transition: 0.5s;
+    
+}
+
+.naveg li {
+    list-style: none;
+}
+
+.naveg li a{
+    font-size: 10px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+
+header {
+    width: 100%;
+    height:200px;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.container {
+    background-color: rgba(170, 170, 170, 0.15);  
+    backdrop-filter: blur(3px);
+    border-radius: 5px;
+}
+
+header div {
+    display: flex;
+    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.186);
+    
+}
+
+header div h1 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color: rgb(244, 54, 54);
+    text-shadow: 2px 1px 2px black;
+    max-width: 350px;
+    
+}
+
+
+
+/*main*/
+.mainUno img {
+    width: 100%;
+}
+
+.mainDos {
+    background-color: #ffffff;
+    /* background-image: linear-gradient(180deg, #ffffff 0%, #f36060 100%); */
+    height: 50px;
+
+}
+
+main section h2 {
+    text-align: center;
+    color: rgb(244, 54, 54);
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Carter One', cursive;
+    
+    
+}
+
+
+.mainTres {
+    /* background-image: linear-gradient(180deg, #f69478 0%, #ff2a2a 100%); */
+    width: 100%;
+    height:100vh;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 10px;
+    background-attachment: fixed;
+
+}
+
+.cajaUno {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.subCajaUno {
+    background-color: rgba(143, 142, 142, 0.212);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.subCajaUno:hover{
+    box-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+
+.subCajaUno img {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+
+.subCajaUno div {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.subCajaUno div:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.subCajaUno div h4 {
+    color: #fff9b2;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.subCajaUno div p {
+    max-width: 150px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+
+
+.cajaDos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.subCajaDos {
+    background-color: rgba(143, 142, 142, 0.212);  
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 100px;
+    transition: 0.5s;
+}
+
+.subCajaDos:hover{
+    box-shadow: 2px 2px 2px black;
+    transition: 0.5s;
+    transform: scale(1.03);
+}
+
+
+.subCajaDos img {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.subCajaDos div {
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.subCajaDos div:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.subCajaDos div h4 {
+    color: #fff9b2;
+    font-size: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.subCajaDos div p {
+    max-width: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 7px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+
+.cajaDos {
+    /* display: flex; */
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+
+/*footer*/
+
+footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(226,0,82,0.788953081232493) 100%); 
+}
+
+footer section div h4 {
+    color: white;
+    text-align: center;
+}
+
+footer section ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 5px;
+    font-size: 10px;
+}
